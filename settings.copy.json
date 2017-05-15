@@ -1,0 +1,13 @@
+// FILL THIS UP AND PLACE THIS FILE AS config/development/settings.json OR config/production/settings.json
+
+{
+  "public": {
+  },
+
+  "facebook": {
+      "APP_ID": "<APP ID HERE>",
+      "SECRET": "<APP SECRET HERE>"
+  },
+
+  "sample": "value"
+}

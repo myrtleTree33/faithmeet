@@ -1,3 +1,7 @@
 <template name="MasterLayout">
+  {{#if currentUser}}
   {{> yield}}
+  {{else}}
+  {{> loginButtons}}
+  {{/if}}
 </template>
