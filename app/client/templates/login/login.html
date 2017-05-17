@@ -1,10 +1,21 @@
 <template name="Login">
-  <div class="login ui middle aligned four column centered grid">
-    <div class="row">
-      <div class="center aligned column">
-    <h1>Faithmeet.</h1>
+  <div class="login ui container">
+        <div class="ui segment">
+    <h1 class="ui centered aligned header">Welcome to Faithmeet.</h1>
+
+<p>
+    <button class="fluid ui facebook large button">
+  <i class="facebook icon"></i>
+  Log in with Facebook
+</button>
+</p>
+<p>
+    <button class="fluid ui twitter large button">
+  <i class="twitter icon"></i>
+  Log in with Twitter
+</button>
+</p>
     {{> loginButtons}}
-      </div>
-    </div>
+</div>
   </div>
 </template>

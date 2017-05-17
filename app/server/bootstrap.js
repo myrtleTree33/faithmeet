@@ -1,6 +1,6 @@
 Meteor.startup(function() {
 
-   let config = Meteor.settings;
+  let config = Meteor.settings;
 
   ServiceConfiguration.configurations.remove({
     service: 'facebook'
